@@ -35,4 +35,106 @@ header nav a{
 font-family: var(--font1);
     font-weight: bold;
     color: var(--branco);
+    text-transform: uppercase;
+}
+
+.btn_entrar{
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+    padding: 0 50px;
+}
+
+h1{
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.banner{
+    background-image: url(../img/Banner1.png);
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+}
+
+.img_logo{
+    margin-bottom: 40px;
+
+}
+
+.banner_conteudo{
+ display: flex;   
+ width: 80%;
+}
+
+.banner_conteudo h2{
+    font-family: var(--font1);
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.banner_conteudo p{
+    font-family: var(--font2);
+    font-size: 20px;
+    padding: 0 60px 0 0;
+}
+
+.banner_conteudo img{
+    width: 600px;
+    height: 400px;
+}
+
+.banner_mvv{
+    padding: 100px 0;
+    background-image: url(../img/Banner2.png);
+    display: flex;
+    justify-content: center;
+}
+
+.mvv_conteudo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.mvv_conteudo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 333px;
+    text-align: center;
+
+}
+
+.mvv_conteudo h3{
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.img_missao{
+    width: 200px;
+    height: 200px;
+}
+
+.img_visao{
+    width: 250px;
+    height: 200px;
+}
+
+.img_valores{
+    width: 200px;
+    height: 200px;
+}
+
+.mvv_conteudo p{
+    padding: 30px 15px 10px 15px;
+    font-family: var(--font2);
+    font-size: 18px;
 }
